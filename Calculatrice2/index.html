@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="Stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma page </title>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="calculatrice">
+        <div class="ecran">
+            <div class="ecran_ecriture" > <input class ="test" id = "output"/>
+            </div>
+            <div class="ecran_affichage" > <input class ="tes" id = "outputt"/>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="function">
+                
+                <span class="button" data-value="5" onClick= "contraire()">±</span>
+                <span class="button" data-value="5">%</span>
+                <span class="button" data-value="5">√</span>
+                <span class="button" data-value="5" onClick= "pi()">π</span>
+                <span class="button" data-value="5">tan</span>
+                <span class="button" data-value="2" onclick="effacer()">C</span>
+                <span class="button" data-value="5">sin</span>
+                <span class="button" data-value="5">cos</span>
+                <span class="button" data-value="5">mod</span>
+                <span class="button" data-value="5">℮</span>
+                <span class="button" data-value="5">(</span>
+                <span class="button" data-value="5">)</span>
+                <span class="button" data-value="5">ln</span>
+                <span class="button" data-value="5" onClick= "valeur_absolu()">|x|</span>
+                <span class="button" data-value="5" onClick= "inverse()">1/x</span>
+                <span class="button" data-value="5">log</span>
+                <span class="button" data-value="5" onClick= "factorielle()">x!</span>
+                <span class="button" data-value="5">←</span>
+            </div>
+            <div class="pavé_numérique">
+                <div class="number">
+                    <span class="button" data-value="5" onClick= "afficher('9')">9</span>
+                    <span class="button" data-value="5" onClick= "afficher('8')">8</span>
+                    <span class="button" data-value="5" onClick= "afficher('7')">7</span>
+                    <span class="button" data-value="5" onClick= "afficher('6')">6</span>
+                    <span class="button" data-value="5" onClick= "afficher('5')">5</span>
+                    <span class="button" data-value="5" onClick= "afficher('4')">4</span>
+                    <span class="button" data-value="5" onClick= "afficher('3')">3</span>
+                    <span class="button" data-value="5" onClick= "afficher('2')">2</span>
+                    <span class="button" data-value="5" onClick= "afficher('1')">1</span>
+                    <span class="button" data-value="5" onClick= "afficher('0')">0</span>
+                    <span class="button" data-value="5" onClick= "afficher('.')">.</span>
+                    <span class="button" data-value="3"  onclick="calculer()">=</span>
+                </div>
+                <div class="signe">
+                    <span class="button" data-value="1" onClick= "afficher('/')">÷</span>
+                    <span class="button" data-value="1" onClick= "afficher('*')">×</span>
+                    <span class="button" data-value="1" onClick= "afficher('-')">-</span>
+                    <span class="button" data-value="1" onClick= "afficher('+')">+</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
